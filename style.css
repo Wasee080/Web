@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(18, 166, 18);
+    background-image: url("christmas.jpg");
+    background-size: 2000px auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.title-box {
+    background-color: rgba(97, 255, 121, 0.8);
+    padding: 20px;
+    border: 3px solid red;
+    width: 400px;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.gift {
+    background-color: rgba(97, 255, 121, 0.8);
+    padding: 20px;
+    border: 3px solid red;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Trapp-effekt */
+#gift1 {
+    margin-left: 0;
+}
+
+#gift2 {
+    margin-left: 150px;
+}
+
+#gift3 {
+    margin-left: 300px;
+}
+
+/* Hover-effekter för olika julklappar */
+#gift1:hover {
+    background-color: rgba(255, 48, 79, 0.8); /* rosa */
+}
+
+#gift2:hover {
+    background-color: rgba(126, 20, 255, 0.8); /* ljusblå */
+}
+
+#gift3:hover {
+    background-color: rgba(144, 0, 144, 0.8); /* ljusgul */
+}
